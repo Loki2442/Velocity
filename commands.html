@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="no">
+    <title>Velocity - Bot Commands</title>
+    <link rel="icon" href="logo.ico">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+
+    <meta name="theme-color" content="#FFBF00">
+    <meta name="description"
+        content="Velocity - An Awesome Music Bot which supports Spotify, SoundCloud, Bandcamp, Twitter & more.">
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:title" content="Velocity">
+    <meta name="twitter:description"
+        content="An Awesome Music Bot which supports Spotify, SoundCloud, Bandcamp, Twitter & more.">
+    <meta name="twitter:image" content="https://loki2442.github.io/Velocity/logo.png">
+
+    <meta name="og:title" content="Velocity">
+    <meta name="og:url" content="https://loki2442.github.io/Velocity">
+    <meta name="og:description"
+        content="An Awesome Music Bot which supports Spotify, SoundCloud, Bandcamp, Twitter & more.">
+    <meta name="og:image" content="https://loki2442.github.io/Velocity/logo.png">
+</head>
+
+<body>
+    <div id="main" class="outside">
+        <div class="inside">
+            <h1>Velocity Commands</h1>
+            <button type="button" id="col1" class="collapsible">General Commands</button>
+            <div class="content">
+                <br>
+                <ul class="cmd-ul">
+                    <li class="cmd-li"><b>changechannel</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!changechannel
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Change the Bot's Voice Channel to the Channel you are in.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: cc
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>connect</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!connect
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Connects the Bot to the Voice Channel you are currently in.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: c
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>disconnect</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!disconnect
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Disconnects the Bot from the Voice Channel & Stops Audio.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: dc
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>invite</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!invite
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Gives the link for inviting this bot to your Server.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: addbot
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>reset</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!reset
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Reset the Bot Settings of the Server.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: rs, restart
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>settings</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!settings {SETTING_NAME} {VALUE}
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            View and Edit Bot Settings in the Server.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: set, setting
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>stats</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!stats
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Provides some Statistics about the Bot.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: ping
+                        </div>
+                    </li><br>
+                </ul>
+            </div>
+            <button type="button" id="col2" class="collapsible">Music Commands</button>
+            <div class="content">
+                <ul class="cmd-ul">
+                    <li class="cmd-li"><b>play</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!play
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Play from a Supported Link or Search for Music with the Provided Text.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: p, pl, yt
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>loop</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!loop
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Loops the Currently Playing Song. Use the command again to Disable the Loop.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: l
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>shuffle</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!shuffle
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Randomly Play a Song in the Current Queue.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: sh
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>pause</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!pause
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Pauses the AudioPlayer.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases:
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>queue</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!queue
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Shows the Number of Songs in Queue.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: q, playlist
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>stop</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!stop
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Stops the AudioPlayer and clears the Song Queue.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: st
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>move</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!move
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Moves a track in the queue.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: mv
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>skip</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!skip
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Skips the Currently Playing Song.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: s
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>clear</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!clear
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Clears the Queue.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: cl
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>previous</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!previous
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Plays the Previous Song again.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: prev, back
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>resume</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!resume
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Resumes the AudioPlayer.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases:
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>songinfo</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!songinfo
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Shows details about the Song Currently being Played.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: si
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>history</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!history
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Shows the last played songs.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases:
+                        </div>
+                    </li><br>
+                    <li class="cmd-li"><b>volume</b>
+                        <div class="desc">
+                            <div class="code">
+                                p!volume
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Changes the Volume of the AudioPlayer.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            Aliases: vol
+                        </div>
+                    </li><br>
+                </ul>
+            </div>
+            <p>&#169; Copyright Loki2442<br>2020 - present</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var whole = document.getElementById("main").classList
+        var col1 = document.getElementById("col1")
+        var col2 = document.getElementById("col2")
+        var column = document.getElementsByClassName("collapsible");
+        var i;
+
+        function bottom() {
+            if (col1.className == "collapsible active" && col2.className == "collapsible active") {
+                whole.add("bottom");
+            } else {
+                whole.remove("bottom")
+            }
+        }
+
+        for (i = 0; i < column.length; i++) {
+            column[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                    bottom();
+                } else {
+                    content.style.display = "none";
+                    bottom();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
